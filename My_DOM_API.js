@@ -8,7 +8,6 @@ function addLoadEvent(func){
 			func();
 		}
 	}
-
 }
 
 function insertAfter(newElement,targetElement){
