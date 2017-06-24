@@ -1,0 +1,209 @@
+		*{margin: 0; padding: 0; list-style: none;}
+
+		body{
+			font-family: "微软雅黑",Arial; background-color: #f2f2f2;
+		}
+		a{
+			text-decoration: none;
+		}
+		.lt{
+			float: left;
+		}
+		.rt{
+			float: right;
+		}
+		.clr{
+			clear: both;
+		}
+
+		/*页面基本布局*/
+		#top{
+			width: 100%;
+			height: 60px;
+			background: #e23845;
+		}
+		#footer{
+			width: 100%;
+			height: 100px;
+			background: #e23845;
+		}
+		#top_bar,#main,#footer_bar{
+			width: 1300px;
+			margin: 0 auto;
+		}
+		/*导航*/
+		#top_bar{
+			font-size: 16px;
+		}
+		#top_bar img{
+			width: 200px;
+			height: 60px;
+			margin-left: 10px;
+		}
+		#top_bar li{
+			float: left;	
+		}
+		#top_bar #nav{
+			margin-left: 11px;
+		}
+		#top_bar li a{
+			color: #fff;
+			display: block;
+			line-height: 16px;
+			margin:0 11px 0 11px;
+			padding: 22px 15px;
+		}
+		#top_bar li:hover{
+			background-color: #333;
+		}
+		#top_bar div{
+			color: #fff;
+			line-height: 60px;
+		}
+		#top_bar div span a{
+			color: #fff;
+		}
+		/*banner*/
+		#banner{
+			position: relative;
+			left: 50%;
+			margin-left: -960px;
+			width: 1920px;
+		}
+		/*主体*/
+		#personal{
+			width: 1300px;
+			height: 700px;
+			margin: 0 auto;
+			background-color: #fff;
+			margin-top: 16px;
+			margin-bottom: 80px;
+		}
+		#personal #per_head{
+			width: 1300px;
+			height: 80px;
+			background-color: #333; 
+			margin-bottom: 10px;
+		}
+		#per_head img{
+			margin-left: 20px;
+			margin-right: 25px;
+		}
+		#per_head div{
+			width: 154px;
+			height: 60px;
+			color: #fff;
+			font-size: 26px;
+			text-align: center;
+			line-height: 60px;
+			margin-top: 20px;
+		}
+		#per_head .car_per{
+			background: #fff;
+			color: #333;
+		}
+		#per_head .car_per{
+			background: #fff;
+			color: #333;
+		}
+		#per_head div:hover{
+			background: #fff;
+			color: #333;
+			cursor: pointer;
+		}
+		#per_order_box{
+			height: 600px;
+			overflow-x: hidden;
+			overflow-y: auto;
+		}
+		.per_order{
+			height: 180px;
+			border-bottom: 1px solid #f2f2f2;
+		
+		}
+		.per_order img{
+			display: block;
+			float: left;
+			height: 140px;
+			width: 200px;
+			margin: 20px;
+		}
+		.per_order_text{
+			float: left;
+		}
+		.per_order_btn{
+			float: right;
+			margin-right: 80px;       
+		}
+		.per_order span{
+			display:inline-block; 
+			color: #333;
+			font-size: 16px;
+			line-height: 24px;
+		}
+		.per_order_text .car_name{
+			margin-top: 28px;
+			font-size: 24px;
+			color: #4c4c4c;
+			margin-bottom: 6px;
+		}
+		.per_order_text .car_pirce{
+			font-size: 24px;
+			color: #f85454;
+			margin-left: 24px;
+		}
+		.per_order_btn{
+			width: 240px;
+
+		}
+
+		.per_order_btn .order_pirce{
+			margin-left: 56px;
+			width: 110px;
+			font-size: 24px;
+			color: #f84c4c;
+			margin-top: 26px;
+		}
+		.per_order_btn input{
+			width: 180px;
+			height: 40px;
+			border: none;
+			margin-left: 60px;
+			margin-top: 10px;
+		}
+		.per_order_btn .paying{
+			font-size: 24px;
+			color: #4c4c4c;
+		}
+		.per_order_btn input.order_pay{
+			background-color: #e55f69;
+			font-size: 20px;
+			color: #fff;
+			outline: none;
+		}
+		.per_order_btn input.order_cancel{
+			background-color: #ab78ea;
+			font-size: 20px;
+			color: #fff;
+			outline: none;
+		}
+		.per_order_btn input.order_pay:hover{
+			background-color: #e23845;
+		}
+		.per_order_btn input.order_cancel:hover{
+			background-color: #9056d8;
+		}
+
+
+
+		/*页脚*/
+		#footer_bar{
+			color: #e5e5e5;
+			font-size: 16px;
+			text-align: center;
+			line-height: 16px;
+		}
+		#footer_bar a{
+			color:#e5e5e5;
+		}
+		#footer_bar .foot_1{padding: 30px 0 11px 0;}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>用户订单管理</title>
+	<link rel="shortcut icon" href="images/icon.ico" type="image/x-icon"/>
+	<link rel="stylesheet" type="text/css" href="CSS/back_order_control.css">
+	<script type="text/javascript" src="jquery-1.11.1.js"></script>
+	<script type="text/javascript" src="js/admin_login_check.js"></script>
+	<script type="text/javascript" src="js/back_order_load.js"></script>
+</head>
+<body>
+	<!--LOGO与导航栏与登录-->
+	<div id="top">
+		<div id="top_bar">
+			<img src="images/LOGO.png" class="lt"/>
+			<ul id="nav" class="lt">
+				<li><a href="back_car_control.html">汽车管理</a></li>
+				<li><a href="back_order_control.html">用户订单管理</a></li>
+				<li><a href="back_sender_control.html">派送员管理</a></li>
+			</ul>
+			<div class="rt">
+				<span id="login_name"><a href="">···</a></span> / <span id="register_quit"><a href="">···</a></span>
+			</div>
+			<div class="clr"></div>
+		</div>
+	</div>
+
+	<!--条件-->
+	<div id="condition_box">
+		<div id="condition">
+			<ul id="select">
+				<li><span class="clicked">全部订单</span></li>
+				<li><span>已派送订单</span></li>
+				<li><span>已完成订单</span></li>
+				<li><span>过时订单</span></li>
+				<div class="clr"></div>
+			</ul>
+		</div>
+	</div>
+
+	<!--主体区-->
+	<div id="main">
+		<div id="order_list">
+			<div class="order_box">
+				<img src="img/baoma525.png"/>
+				<ul class="order_msg">
+					<li><span class="car_name">日产NV200</span><span class="car_pirce">￥200/日</span></li>
+					<li>数量：<span>2</span></li>
+					<li>租车时长：<span>2017-5-6</span> 至 <span>2016-9-5</span></li>
+					<li>取车时间：<span>12:00</span></li>
+					<li><span class="addr"><span class="addr_name">取车地址：</span>阿斯蒂芬是阿斯蒂芬是阿斯蒂芬</span></li>
+				</ul>
+				<ul class="user_msg">
+					<li><span class="user_name">用户名：</span><span class="user_name_msg">807163565</span></li>
+					<li>姓名：<span>刘江</span></li>
+					<li>电话号码：<span>15123906906</span></li>
+					<li>身份证号：<span>500382199405120052</span></li>
+					<li>电子邮件：<span>807163565@qq.com</span></li>
+				</ul>
+				<ul class="order_btn">
+					<li><span class="order_pirce">￥3210</span><span class="paying">待支付</span></li>
+					<li><input class="car_send" type="button" value="汽车派送"/><input type="hidden" value="orderID" /></li>
+					<li><input class="order_finish" type="button" value="完成订单"/></li>
+				</ul>
+				<div class="clr"></div>
+			</div>		
+		</div>
+	</div>
+	<!--翻页-->
+	<div id="page_box">
+		<span><img src="images/subling_page.png"/></span>
+		<!--<span>2</span>
+		<span>3</span>
+		<span>4</span>
+		<span>5</span>
+		<span>6</span>
+		<span>7</span>
+		<span>8</span>
+		<span>9</span>
+		<span>10</span>-->
+		<span><img src="images/next_page.png"/></span>
+	</div>
+	<!--页脚-->
+	<div id="footer">
+		<div id="footer_bar">
+			<div class="foot_1"><a href="#">租车须知</a> | <a href="#">服务范围</a> | <a href="#">联系我们</a> | <a href="#">关于我们</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;联系电话：420-58965412 </div>
+			<div>京ICP备15002038号-1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;京公网安备 11010102001081号&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;版权所有：百圣租车</div>
+		</div>
+	</div>
+	<div id="order_staff" class="dis">
+		<div id="staff_box">	
+			<div id="top_staff">订单分配派送员</div>
+			<div id="order_text">	
+				<div class="name">选择派送员</div><select>
+				<option value="0">请选择</option>
+				</select>
+				<div class="clr"></div>
+			</div>
+			<div id="btn"><input id="add_sure" type="button" value="确认添加"/><input id="add_cancel" type="button" value="取消添加"/></div>
+		</div>
+	</div>
+</body>
+</html> 

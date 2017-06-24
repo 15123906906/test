@@ -1,0 +1,165 @@
+		*{margin: 0; padding: 0; list-style: none;}
+
+		body{
+			font-family: "微软雅黑",Arial; background-color: #f2f2f2;
+		}
+		a{
+			text-decoration: none;
+		}
+		.lt{
+			float: left;
+		}
+		.rt{
+			float: right;
+		}
+		.clr{
+			clear: both;
+		}
+
+		/*页面基本布局*/
+		#top{
+			width: 100%;
+			height: 60px;
+			background: #e23845;
+		}
+		#footer{
+			width: 100%;
+			height: 100px;
+			background: #e23845;
+		}
+		#top_bar,#main,#footer_bar{
+			width: 1300px;
+			margin: 0 auto;
+		}
+		/*导航*/
+		#top_bar{
+			font-size: 16px;
+		}
+		#top_bar img{
+			width: 200px;
+			height: 60px;
+			margin-left: 10px;
+		}
+		#top_bar li{
+			float: left;	
+		}
+		#top_bar #nav{
+			margin-left: 11px;
+		}
+		#top_bar li a{
+			color: #fff;
+			display: block;
+			line-height: 16px;
+			margin:0 11px 0 11px;
+			padding: 22px 15px;
+		}
+		#top_bar li:hover{
+			background-color: #333;
+		}
+		#top_bar div{
+			color: #fff;
+			line-height: 60px;
+		}
+		#top_bar div span a{
+			color: #fff;
+		}
+		
+		/*主体*/
+		#main h1{
+			font-size: 30px;
+			font-weight: normal;
+			color: #333;
+			line-height: 29px;
+			margin-top: 70px;
+			margin-bottom: 70px;
+			text-align: center;
+		}
+		#step{
+			margin: 0 auto;
+			width: 1200px;
+			border-bottom: 2px solid #ddd;
+			margin-bottom: 78px;
+			position: relative;
+		}
+		#step .step_0,.step_0 div,.step_0 h2{
+			float: left;
+		}
+		.step_0{
+			width: 300px;
+			position: absolute;
+		}
+		.step_0 div{
+			width: 30px;
+			height: 30px;
+			border-radius: 15px;
+			background-color: #ddd;
+			color: #fff;
+			font-size: 24px;
+			line-height: 30px;
+			text-align: center;
+			margin-left: 91px;
+			margin-right: 8px;
+		}
+		.step_0 h2{
+			font-weight: bold;
+			font-size: 20px;
+			line-height: 30px;
+			color: #ddd;
+		}
+		.step_1{
+			bottom: -2px;
+			left: 150px;
+			padding-bottom: 10px;
+		}
+		.step_2{
+			bottom: -2px;
+			left: 450px;
+			padding-bottom: 10px;
+			
+		}
+		.step_3 div{
+			background: #e23845;
+		}
+		.step_3 h2{color: #333333;}
+		.step_3{
+			bottom: -2px;
+			left: 750px;
+			padding-bottom: 10px;
+			border-bottom: 2px solid #e23845;
+		}
+		#form_in{
+			margin: 0 auto;
+			width: 800px;
+			height: 360px;
+			margin-bottom: 200px;
+		}
+		#form_in h3{
+			padding-top: 72px;
+			padding-bottom: 160px;
+			font-weight: normal;
+			font-size: 40px;
+			color: #e23845;
+			text-align: center;
+		}
+		#form_in button{
+			margin-left: 320px;
+			width: 160px;
+			height: 36px;
+			border: none;
+			border-radius: 2px;
+			background-color: #e23845;
+			color: #fff;
+			font-size: 18px;
+			outline: none;
+		}
+		/*页脚*/
+		#footer_bar{
+			color: #e5e5e5;
+			font-size: 16px;
+			text-align: center;
+			line-height: 16px;
+		}
+		#footer_bar a{
+			color:#e5e5e5;
+		}
+		#footer_bar .foot_1{padding: 30px 0 11px 0;}

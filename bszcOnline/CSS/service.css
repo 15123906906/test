@@ -1,0 +1,152 @@
+		*{margin: 0; padding: 0; list-style: none;}
+
+		body{
+			font-family: "微软雅黑",Arial; background-color: #f2f2f2;
+		}
+		a{
+			text-decoration: none;
+		}
+		.lt{
+			float: left;
+		}
+		.rt{
+			float: right;
+		}
+		.clr{
+			clear: both;
+		}
+
+		/*页面基本布局*/
+		#top{
+			width: 100%;
+			height: 60px;
+			background: #e23845;
+		}
+		#footer{
+			width: 100%;
+			height: 100px;
+			background: #e23845;
+		}
+		#top_bar,#main,#footer_bar{
+			width: 1300px;
+			margin: 0 auto;
+		}
+		/*导航*/
+		#top_bar{
+			font-size: 16px;
+		}
+		#top_bar img{
+			width: 200px;
+			height: 60px;
+			margin-left: 10px;
+		}
+		#top_bar li{
+			float: left;	
+		}
+		#top_bar #nav{
+			margin-left: 11px;
+		}
+		#top_bar li a{
+			color: #fff;
+			display: block;
+			line-height: 16px;
+			margin:0 11px 0 11px;
+			padding: 22px 15px;
+		}
+		#top_bar li:hover{
+			background-color: #333;
+		}
+		#top_bar div{
+			color: #fff;
+			line-height: 60px;
+		}
+		#top_bar div span a{
+			color: #fff;
+		}
+		/*banner*/
+		#banner{
+			position: relative;
+			left: 50%;
+			margin-left: -960px;
+			width: 1920px;
+		}
+		/*主体*/
+		#service{
+			width: 1100px;
+			height: 1060px;
+			margin: 0 auto;
+			background-color: #fff;
+			margin-top: 46px;
+			margin-bottom: 63px;
+		}
+		#main h1{
+			font-size: 18px;
+			color: #e23845;
+			line-height: 14px;
+			font-weight: normal;
+			text-align: center;
+			padding-top: 70px;
+			margin-bottom: 20px;
+		}
+		#main h2{
+			font-size: 30px;
+			color: #333;
+			font-weight: normal;
+			text-align: center;
+			line-height: 29px;
+			margin-bottom: 63px;
+		}
+		#main p{
+			color: #333;
+			font-size: 16px;
+			line-height: 28px
+		}
+		#service_img{
+			width: 1000px;
+			height: 700px;
+			margin: 0 auto;
+		}
+		#service_img img{
+			display: block;
+		}
+		.ser{
+			position: relative;
+		}
+		.service_name{
+			width: 100%;
+			height: 60px;
+			position: absolute;
+			bottom: 0px;
+			left: 0px;
+			font-size: 30px;
+			color: #fff;
+			text-align: center;
+			line-height: 60px;
+			font-family: "黑体";
+		}
+		.ser_1{
+			background-color:rgba(97,160,246,0.8); 
+		}
+		.ser_2{
+			background-color: rgba(215,161,128,0.8);
+		}
+		.ser_3{
+			background-color: rgba(98,145,117,0.8);
+		}
+		.ser_4{
+			background-color: rgba(229,225,123,0.8);
+		}
+		.ser_5{
+			background-color: rgba(217,69,69,0.8);
+		}
+		/*页脚*/
+		#footer_bar{
+			color: #e5e5e5;
+			font-size: 16px;
+			text-align: center;
+			line-height: 16px;
+		}
+		#footer_bar a{
+			color:#e5e5e5;
+		}
+		#footer_bar .foot_1{padding: 30px 0 11px 0;}

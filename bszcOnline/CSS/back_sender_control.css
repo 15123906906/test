@@ -1,0 +1,234 @@
+		*{margin: 0; padding: 0; list-style: none;}
+
+		body{
+			font-family: "微软雅黑",Arial; background-color: #f2f2f2;
+		}
+		a{
+			text-decoration: none;
+		}
+		.lt{
+			float: left;
+		}
+		.rt{
+			float: right;
+		}
+		.clr{
+			clear: both;
+		}
+
+		/*页面基本布局*/
+		#top{
+			width: 100%;
+			height: 60px;
+			background: #e23845;
+		}
+		#footer{
+			width: 100%;
+			height: 100px;
+			background: #e23845;
+		}
+		#top_bar,#footer_bar{
+			width: 1300px;
+			margin: 0 auto;
+		}
+		/*导航*/
+		#top_bar{
+			font-size: 16px;
+		}
+		#top_bar img{
+			width: 200px;
+			height: 60px;
+			margin-left: 10px;
+		}
+		#top_bar li{
+			float: left;	
+		}
+		#top_bar #nav{
+			margin-left: 11px;
+		}
+		#top_bar li a{
+			color: #fff;
+			display: block;
+			line-height: 16px;
+			margin:0 11px 0 11px;
+			padding: 22px 15px;
+		}
+		#top_bar li:hover{
+			background-color: #333;
+		}
+		#top_bar div{
+			color: #fff;
+			line-height: 60px;
+		}
+		#top_bar div span a{
+			color: #fff;
+		}
+		/*添加派送员*/
+		#add_sender_box{
+			height: 60px;
+			width: 1300px;
+			margin: 0 auto;
+		}
+		#add_sender_box:hover .add_sender_text{
+			color: #222;
+		}
+		#add_sender{
+			width: 171px;
+			margin: 0 auto;
+		}
+		#add_sender img{
+			display: block;
+			margin-top: 10px;
+		}
+		.add_sender_text{
+			margin-left: 10px;
+			font-size: 24px;
+			color: #808080;
+			line-height: 60px;
+		}
+	
+		/*主体*/
+		#main{
+			background-color: #fff;
+			min-height: 500px;
+		}
+		#sender_box{
+			width: 1300px;
+			margin: 0 auto;
+			border-top: 1px solid #e6e6e6;
+			margin-bottom: 10px;
+		}
+		.sender{
+			height: 100px;
+			border-bottom: 1px solid #e6e6e6;
+		}	
+		.sender_msg{
+			width: 1250px;
+			height: 40px;
+			margin: 0 auto;
+			padding-top: 30px;
+		}
+		.sender_msg div{
+			float: left;
+		}
+		.sender_num{
+			width: 350px;
+			font-size: 24px;
+			color: #fff;
+			text-align: center;
+			line-height: 40px;
+			background-color: #e23845;
+		}
+		.sender_name{
+			width: 350px;
+			font-size: 24px;
+			color: #fff;
+			text-align: center;
+			line-height: 40px;
+			background-color: #ab78ea;
+		}
+		.sender_tel{
+			width: 350px;
+			font-size: 24px;
+			color: #fff;
+			text-align: center;
+			line-height: 40px;
+			background-color: #e23845;
+		}
+		.sender_del{
+			width: 200px;
+			font-size: 24px;
+			color: #fff;
+			text-align: center;
+			line-height: 40px;
+			background-color: #ab78ea;
+			cursor: pointer;
+		}
+		
+		/*翻页按钮*/
+		#page_box{
+			width: 91px;
+			height: 44px;
+			margin: 0 auto;
+			background-color: #fff;
+			margin-bottom: 45px;
+			border-top: 1px solid #ccc;
+			border-bottom: 1px solid #ccc;
+			border-left: 1px solid #ccc;
+		}
+		#page_box span{
+			display: block;
+			float: left;
+			width: 44px;
+			height: 44px;
+			border-right: 1px solid #ccc;
+			font-size: 26px;
+			line-height: 44px;
+			text-align: center;
+		}
+		#subling_page{
+			background-color: #000;
+			background: url(../images/subling_page.png) no-repeat center;
+		}
+		#subling_page:hover{
+			background: url(../images/subling_page_in.png) center center no-repeat;
+		}
+		#next_page{
+			background: url(../images/next_page.png) center center no-repeat;
+		}
+		#next_page:hover{
+			background: url(../images/next_page_in.png) center center no-repeat;
+		}
+
+		.page_click{
+			color: #999;
+		}
+		#page_box span:hover{
+			cursor: pointer;
+			background-color: #e23845; 
+			color: #fff;
+		}
+		.page_on{
+			background-color: #e23845; 
+			color: #fff;
+		}
+
+		/*页脚*/
+		#footer_bar{
+			color: #e5e5e5;
+			font-size: 16px;
+			text-align: center;
+			line-height: 16px;
+		}
+		#footer_bar a{
+			color:#e5e5e5;
+		}
+		#footer_bar .foot_1{padding: 30px 0 11px 0;}
+
+		/*iframe*/
+		#ifr{
+			width: 1200px; margin: 0 auto;
+		}
+		#ifr iframe{
+			width: 1200px;
+			height: 300px;
+			position: fixed;
+			top: 110px;
+			z-index: 3;
+			background-color: #fff;
+			border: none;
+		}
+		body{
+			position: relative;
+			top: 0;
+			left: 0;
+		}
+		#back{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			z-index: 1;
+			top: 0;
+			left: 0;
+			background-color: rgba(0,0,0,0.6);
+		}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>管理员登录</title>
+	<link rel="shortcut icon" href="images/icon.ico" type="image/x-icon"/>
+	<link rel="stylesheet" type="text/css" href="CSS/admin_login.css">
+	<script type="text/javascript" src="jquery-1.11.1.js"></script>
+	<script type="text/javascript" src="js/admin_login.js"></script>
+</head>
+<body>
+	<!--LOGO与导航栏与登录-->
+	<div id="top">
+		<div id="top_bar">
+			<img src="images/LOGO.png" class="lt"/>
+			<div id="top_text">管理员登录界面</div>
+			<div class="clr"></div>
+		</div>
+	</div>
+
+	<!--主体区-->
+	<div id="main">
+		<form action="admin_login.php" method="post" id="login">
+			<ul>
+				<li><h1>管理员登录</h1></li>
+				<li id="login_name" class="lt"><div></div><input type="text" name="userName"></li>		
+				<li id="login_pwd" class="lt"><div></div><input type="password" name="password"></li>	
+				<div class="clr"></div>
+				<li><div>登录</div></li>
+				<div class="clr"></div>
+			</ul>
+		</form>
+		<div class="clr"></div>
+	</div>
+	<!--页脚-->
+	<div id="footer">
+		<div id="footer_bar">
+			<div class="foot_1"><a href="#">租车须知</a> | <a href="#">服务范围</a> | <a href="#">联系我们</a> | <a href="#">关于我们</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;联系电话：420-58965412 </div>
+			<div>京ICP备15002038号-1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;京公网安备 11010102001081号&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;版权所有：百圣租车</div>
+		</div>
+	</div>
+</body>
+</html> 

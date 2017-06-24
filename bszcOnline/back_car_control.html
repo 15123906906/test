@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>汽车管理</title>
+	<link rel="shortcut icon" href="images/icon.ico" type="image/x-icon"/>
+	<link rel="stylesheet" type="text/css" href="CSS/back_car_control.css">
+	<script type="text/javascript" src="jquery-1.11.1.js"></script>
+	<script type="text/javascript" src="js/admin_login_check.js"></script>
+	<script type="text/javascript" src="js/back_car_load.js"></script>
+</head>
+<body>
+	<!--LOGO与导航栏与登录-->
+	<div id="top">
+		<div id="top_bar">
+			<img src="images/LOGO.png" class="lt"/>
+			<ul id="nav" class="lt">
+				<li><a href="back_car_control.html">汽车管理</a></li>
+				<li><a href="back_order_control.html">用户订单管理</a></li>
+				<li><a href="back_sender_control.html">派送员管理</a></li>
+			</ul>
+			<div class="rt">
+				<span id="login_name"><a href="">···</a></span> / <span id="register_quit"><a href="">···</a></span>
+			</div>
+			<div class="clr"></div>
+		</div>
+	</div>
+
+	<!--条件-->
+	<div id="condition_box">
+		<div id="condition">
+			<ul id="brand">
+				<li><div>品牌</div></li>
+				<li><span class="clicked">不限</span></li>
+				<li><span>宝马</span></li>
+				<li><span>奔驰</span></li>
+				<li><span>本田</span></li>
+				<div class="clr"></div>
+			</ul>
+			<ul id="carStyle">
+				<li><div>车型</div></li>
+				<li><span class="clicked">不限</span></li>
+				<li><span>宝马525</span></li>
+				<li><span>奔驰E级</span></li>
+				<li><span>本田理念</span></li>
+				<div class="clr"></div>
+			</ul>
+		</div>
+	</div>
+	<div id="add_car_box">
+		<div id="add_car">
+			<img class="lt"  src="images/add_car_msg.png" />
+			<div class="lt add_car_text">添加车型</div>
+			<div class="clr"></div>
+		</div>
+	</div>
+
+	<!--主体区-->
+	<div id="main">
+		<div id="product_box">
+			<div class="product">
+				<img src="images/product_1.png"/>
+				<ul>
+					<li><span>车型</span><div>车型</div></li>
+					<li><span>品牌</span><div>品牌</div></li>
+					<li><span>库存</span><div>库存</div></li>
+					<li><span>日租价格</span><div>日租价格</div></li>
+					<li><span>汽车简介</span><div>汽车简介</div></li>
+					<li><span>小图</span><div>小图</div></li>
+					<li><span>大图</span><div>大图</div></li>
+				</ul>
+				<div class="car_fix_btn">
+					<div class="fix_btn">修改信息</div>
+					<div class="del_btn">删除车型</div>
+				</div>
+				<div class="clr"></div>
+			</div>
+		</div>
+	</div>
+	<!--翻页-->
+	<div id="page_box">
+		<span><img src="images/subling_page.png"/></span>
+		<!--<span>2</span>
+		<span>3</span>
+		<span>4</span>
+		<span>5</span>
+		<span>6</span>
+		<span>7</span>
+		<span>8</span>
+		<span>9</span>
+		<span>10</span>-->
+		<span><img src="images/next_page.png"/></span>
+	</div>
+	<!--页脚-->
+	<div id="footer">
+		<div id="footer_bar">
+			<div class="foot_1"><a href="#">租车须知</a> | <a href="#">服务范围</a> | <a href="#">联系我们</a> | <a href="#">关于我们</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;联系电话：420-58965412 </div>
+			<div>京ICP备15002038号-1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;京公网安备 11010102001081号&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;版权所有：百圣租车</div>
+		</div>
+	</div>
+</body>
+</html> 

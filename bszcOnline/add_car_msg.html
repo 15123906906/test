@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>租赁汽车添加</title>
+	<link rel="shortcut icon" href="images/icon.ico" type="image/x-icon"/>
+	<link rel="stylesheet" type="text/css" href="CSS/add_car_msg.css">
+	<script type="text/javascript" src="jquery-1.11.1.js"></script>
+	<script type="text/javascript" src="js/admin_login_check.js"></script>
+	<script type="text/javascript" src="js/add_car_msg.js"></script>
+</head>
+<body>
+	<div id="big_box">
+		<div id="top">租赁汽车添加</div>
+		<ul>	
+			<li id="brand"><span>品牌</span><div><textarea placeholder="请输入汽车品牌"></textarea></div></li>
+			<li id="carStyleId"><span>品牌编号</span><div><textarea placeholder="请输入大于0的整数作为品牌编号"></textarea></div></li>
+			<li id="car"><span>车型</span><div><textarea placeholder="请输入汽车车型"></textarea></div></li>
+			<li id="stock"><span>库存</span><div><textarea placeholder="请输入大于0的整数作为库存"></textarea></div></li>
+			<li id="pirce"><span>日租价格</span><div><textarea placeholder="请输入大于0的整数作为日租价格"></textarea></div></li>
+			<li id="summary"><span>简介</span><div><textarea placeholder="请输入150字以内的文字作为简介"></textarea></div></li>
+			<div class="clr"></div>
+		</ul>
+		<div id="add_img">请添加添加200*140像素小图:<input type="file" /></div>
+		<div id="add_imgBig">请添加添加600*450像素大图:<input type="file" /></div>
+		<div id="btn"><input id="add_sure" type="button" value="确认添加"/><input id="add_cancel" type="button" value="取消添加"/></div>
+	</div>
+	
+</body>
+</html>

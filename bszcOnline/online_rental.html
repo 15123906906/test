@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>网上租车</title>
+	<link rel="shortcut icon" href="images/icon.ico" type="image/x-icon"/>
+	<link rel="stylesheet" type="text/css" href="CSS/online_rental.css">
+	<script type="text/javascript" src="jquery-1.11.1.js"></script>
+	<script type="text/javascript" src="js/login_check.js"></script>
+	<script type="text/javascript" src="js/car_load.js"></script>
+</head>
+<body>
+	<!--LOGO与导航栏与登录-->
+	<div id="top">
+		<div id="top_bar">
+			<img src="images/LOGO.png" class="lt"/>
+			<ul id="nav" class="lt">
+				<li><a href="index.html">首页</a></li>
+				<li><a href="online_rental.html">网上租车</a></li>
+				<li><a href="rental.html">租车须知</a></li>
+				<li><a href="service.html">服务范围</a></li>
+				<li><a href="contact.html">联系我们</a></li>
+				<li><a href="about_us.html">关于我们</a></li>
+			</ul>
+			<div class="rt">
+				<span id="login_name"><a href="login.html">登录</a></span> / <span id="register_quit"><a href="register.html">注册</a></span>
+			</div>
+			<div class="clr"></div>
+		</div>
+	</div>
+	<div id="search_box">
+		<input type="text" placeholder="请输入汽车车型"/><div id="search">搜索</div>
+		<div class="clr"></div>
+	</div>
+
+	<!--条件-->
+	<div id="condition_box">
+		<div id="condition">
+			<ul id="brand">
+				<li><div>品牌</div></li>
+				<li><span class="clicked">不限</span></li>
+				<li><span>宝马</span></li>
+				<li><span>奔驰</span></li>
+				<li><span>本田</span></li>
+				<div class="clr"></div>
+			</ul>
+			<ul id="carStyle">
+				<li><div>车型</div></li>
+				<li><span class="clicked">不限</span></li>
+				<li><span>宝马525</span></li>
+				<li><span>奔驰E级</span></li>
+				<li><span>本田理念</span></li>
+				<div class="clr"></div>
+			</ul>
+		</div>
+	</div>
+	<div id="sort">
+		<ul>
+			<li class="clicked">综合</li>
+			<li>类型</li>
+			<li>价格↑</li>
+			<li>价格↓</li>
+			<div class="clr"></div>
+		</ul>
+	</div>
+
+	<!--主体区-->
+	<div id="main">
+		<div id="product_box">
+			<div class="product">
+				<img src="images/product_1.png"/>
+				<div class="text">
+					<h1>日产NV200</h1>
+					<h2>库存 : <span>4辆</span></h2>
+					<p>简介：NISSAN NV200是一款基于日产B级轿车平台延伸出来的厢式车。郑州日产在国内量产的NV200采用与东风日产骊威相同的HR16 1.6L汽油发动机。在中国的同平台车型有骊威、骐达、轩逸、启辰D50/R50、风神A60。</p>
+				</div>
+				<div class="price">￥<span>123</span>元/日</div>
+				<h3 class="clr"></h3> 
+			</div>
+
+		</div>
+
+	</div>
+	<!--翻页-->
+	<div id="page_box">
+		<span><img src="images/subling_page.png"/></span>
+		<!--<span>2</span>
+		<span>3</span>
+		<span>4</span>
+		<span>5</span>
+		<span>6</span>
+		<span>7</span>
+		<span>8</span>
+		<span>9</span>
+		<span>10</span>-->
+		<span><img src="images/next_page.png"/></span>
+	</div>
+	<!--页脚-->
+	<div id="footer">
+		<div id="footer_bar">
+			<div class="foot_1"><a href="#">租车须知</a> | <a href="#">服务范围</a> | <a href="#">联系我们</a> | <a href="#">关于我们</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;联系电话：420-58965412 </div>
+			<div>京ICP备15002038号-1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;京公网安备 11010102001081号&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;版权所有：百圣租车</div>
+		</div>
+	</div>
+</body>
+</html> 

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录</title>
+	<link rel="shortcut icon" href="images/icon.ico" type="image/x-icon"/>
+	<link rel="stylesheet" type="text/css" href="CSS/login.css">
+	<script type="text/javascript" src="jquery-1.11.1.js"></script>
+	<script type="text/javascript" src="js/login.js"></script>
+</head>
+<body>
+	<!--LOGO与导航栏与登录-->
+	<div id="top">
+		<div id="top_bar">
+			<img src="images/LOGO.png" class="lt"/>
+			<ul id="nav" class="lt">
+				<li><a href="index.html">首页</a></li>
+				<li><a href="online_rental.html">网上租车</a></li>
+				<li><a href="rental.html">租车须知</a></li>
+				<li><a href="service.html">服务范围</a></li>
+				<li><a href="contact.html">联系我们</a></li>
+				<li><a href="about_us.html">关于我们</a></li>
+			</ul>
+			<div class="rt">
+				<span><a href="login.html">登录</a></span> / <span><a href="register.html">注册</a></span>
+			</div>
+			<div class="clr"></div>
+		</div>
+	</div>
+
+	<!--主体区-->
+	<div id="main">
+		<form action="login.php" method="post" id="login">
+			<ul>
+				<li><h1>用户登录</h1></li>
+				<li id="login_name" class="lt"><div></div><input type="text" name="userName"></li>		
+				<li id="login_pwd" class="lt"><div></div><input type="password" name="password"></li>	
+				<div class="clr"></div>
+				<li><div>登录</div></li>
+				<li class="rt"><a href="register.html">免费注册</a></li>
+				<div class="clr"></div>
+			</ul>
+		</form>
+		<div class="clr"></div>
+	</div>
+	<!--页脚-->
+	<div id="footer">
+		<div id="footer_bar">
+			<div class="foot_1"><a href="#">租车须知</a> | <a href="#">服务范围</a> | <a href="#">联系我们</a> | <a href="#">关于我们</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;联系电话：420-58965412 </div>
+			<div>京ICP备15002038号-1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;京公网安备 11010102001081号&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;版权所有：百圣租车</div>
+		</div>
+	</div>
+</body>
+</html> 

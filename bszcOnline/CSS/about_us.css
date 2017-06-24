@@ -1,0 +1,141 @@
+*{margin: 0; padding: 0; list-style: none;}
+
+body{
+	font-family: "微软雅黑",Arial;
+}
+a{
+	text-decoration: none;
+}
+.lt{
+	float: left;
+}
+.rt{
+	float: right;
+}
+.clr{
+	clear: both;
+}
+
+/*页面基本布局*/
+#top{
+	width: 100%;
+	height: 60px;
+	background: #e23845;
+}
+#footer{
+	width: 100%;
+	height: 100px;
+	background: #e23845;
+}
+#top_bar,#main,#footer_bar{
+	width: 1300px;
+	margin: 0 auto;
+}
+/*导航*/
+#top_bar{
+	font-size: 16px;
+}
+#top_bar img{
+	width: 200px;
+	height: 60px;
+	margin-left: 10px;
+}
+#top_bar li{
+	float: left;	
+}
+#top_bar #nav{
+	margin-left: 11px;
+}
+#top_bar li a{
+	color: #fff;
+	display: block;
+	line-height: 16px;
+	margin:0 11px 0 11px;
+	padding: 22px 15px;
+}
+#top_bar li:hover{
+	background-color: #333;
+}
+#top_bar div{
+	color: #fff;
+	line-height: 60px;
+}
+#top_bar div span a{
+	color: #fff;
+}
+/*banner*/
+#banner{
+	position: relative;
+	left: 50%;
+	margin-left: -960px;
+	width: 1920px;
+}
+/*主体*/
+#about_txt{
+	width: 1000px;
+	height: 600px;
+	margin: 0 auto;
+	margin-top: 116px;
+	margin-bottom: 20px;
+}
+#main h1{
+	font-size: 18px;
+	color: #e23845;
+	line-height: 14px;
+	font-weight: normal;
+	text-align: center;
+	margin-bottom: 20px;
+}
+#main h2{
+	font-size: 30px;
+	color: #333;
+	font-weight: normal;
+	text-align: center;
+	line-height: 29px;
+	margin-bottom: 44px;
+}
+#main p{
+	color: #333;
+	font-size: 16px;
+	line-height: 28px
+}
+#about_img{
+	width: 960px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
+#about_img img{
+	display: block;
+	float: left;
+	margin: 0 10px 0 10px;
+}
+#QR_code{
+	margin: 0 auto;
+	width: 220px;
+	height: 220px;
+	border: 1px solid #000;
+	padding: 9px 9px 9px 9px;
+}
+#code_txt{
+	margin: 0 auto;
+	width: 240px;
+	height: 30px;
+	background-color: #e23845;
+	font-size: 18px;
+	color: #fff;
+	line-height: 30px;
+	text-align: center;
+	margin-bottom: 100px;
+	border-radius: 0 0 10px 10px;
+}
+/*页脚*/
+#footer_bar{
+	color: #e5e5e5;
+	font-size: 16px;
+	text-align: center;
+	line-height: 16px;
+}
+#footer_bar a{
+	color:#e5e5e5;
+}
+#footer_bar .foot_1{padding: 30px 0 11px 0;}
