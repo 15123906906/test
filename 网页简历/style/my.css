@@ -1,0 +1,115 @@
+* ,body {
+	margin: 0;
+	padding: 0;
+	font-family: "microsoft yahei";
+}
+.clr {clear: both;}
+#main{
+	margin: 0 auto; 
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+header {
+	background-image: url(../images/header.png);
+	height: 600px;
+}
+img {
+	display: block;
+}
+#top {
+	width: 1000px;
+	margin: 0 auto;
+}
+header #head {
+	padding-top: 160px;
+	margin-left: 180px;
+	float: left;
+}
+#top-name{
+	float: left;
+}
+#top-name h1{
+	font-size: 26px;
+	color: #fff;
+	font-weight: bold;
+	margin-left: 100px;
+	padding-top: 250px;
+}
+#top-name img{
+	height: 1px;
+	widows: 270px;
+	margin-left: 66px;
+}
+#top-name h2{
+	font-size: 36px;
+	color: #fff;
+	font-weight: lighter;
+	margin-left: 92px;
+	padding-top: 4px;
+}
+#my-record,#experience,#project {
+	width:1000px;
+	height: 420px;	
+	margin: 0 auto; 	
+}
+#my-record h1{
+	font-size: 26px;
+	color: #333;
+	text-align: center;
+	padding-top: 10px;
+}
+
+#my-record img{
+	float: left;
+}
+.school{
+	margin-left: 208px;
+}
+.work{
+	margin-left: 158px;
+	padding-top: 10px;
+}
+.graduate{
+	margin-left: 162px;
+	padding-top: 10px;
+}
+#record{
+	padding-top: 90px;
+}
+#experience-box{
+	background-color: #4AA4B0;
+	color: #fff;
+	text-align: center;
+}
+#experience .wk{
+	float: left;
+	width: 300px;
+	height: 350px;
+}
+#experience h1{
+	font-size: 26px;
+	text-align: center;
+	padding-top: 10px;
+}
+#experience h2{
+	font-size: 26px;
+}
+#experience p{
+	font-size: 16px;
+}
+#first-job{
+	padding-top: 30px;
+	margin-left: 50px;
+}
+#secend-job{
+	padding-top: 250px;
+}
+#project h1{
+	font-size: 26px;
+	color: #333;
+	text-align: center;
+	padding-top: 10px;
+}
